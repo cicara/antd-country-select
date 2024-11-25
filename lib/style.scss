@@ -1,0 +1,14 @@
+.country-select-option {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  > .country-select-option-icon {
+    font-size: 24px;
+  }
+  > .country-select-option-label {
+    flex: 1 1 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
